@@ -8,7 +8,7 @@
 
 ## Announcements 
 
-- May. 17th: To build LLVM, please see [BuildLLVM.md](BuildLLVM.md)
+- May. 17th: To build LLVM, please follow [BuildLLVM.md](BuildLLVM.md). If it doesn't work due to insufficient memory / free space, please contact TA to request a laptop for a class.
 
 ## Projects
 
