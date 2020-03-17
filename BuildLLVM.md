@@ -10,9 +10,7 @@ Recommended setting:
 
 #### Prerequisites
 
-We'll use https://github.com/aqjune/llvmscript. Please clone the repo first.
-
-- `python3`: required for running this script
+- `python3`: required for running scripts
 - `git`: required for cloning repos
 - `cmake3`, `ninja`, `g++`: required for building repos
 
@@ -20,6 +18,13 @@ We'll use https://github.com/aqjune/llvmscript. Please clone the repo first.
 # Ubuntu:
 apt update
 apt install git cmake ninja-build g++
+```
+
+We'll use https://github.com/aqjune/llvmscript. Please clone the repo first.
+
+```
+git clone git@github.com:aqjune/llvmscript.git
+cd llvmscript
 ```
 
 Clone LLVM:
