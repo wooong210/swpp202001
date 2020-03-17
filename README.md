@@ -8,6 +8,8 @@
 
 ## Announcements 
 
+- May. 17th: To build LLVM, please see [BuildLLVM.md](BuildLLVM.md)
+
 ## Projects
 
 ## Assignments
