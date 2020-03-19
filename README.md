@@ -8,7 +8,7 @@
 
 ## Announcements 
 
-- May. 17th: To build LLVM, please follow [BuildLLVM.md](BuildLLVM.md). If it doesn't work due to insufficient memory / free space, please contact TA to request a laptop for a class. EDIT: please use this form to request a laptop: https://forms.gle/jDV6K4sD61WEZKh99
+- May. 17th: To build LLVM, please follow [BuildLLVM.md](BuildLLVM.md). If it doesn't work due to insufficient memory / free space, please contact TA to request a laptop for a class. EDIT: please use this form to request a laptop: https://forms.gle/jDV6K4sD61WEZKh99 *until: Mar. 25 Wed*
 
 ## Projects
 
