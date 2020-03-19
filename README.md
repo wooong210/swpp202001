@@ -13,3 +13,5 @@
 ## Projects
 
 ## Assignments
+
+- May. 19th: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
