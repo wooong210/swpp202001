@@ -1,0 +1,36 @@
+
+
+commit 92be207f9b7d3ce5a351f04ef25c1de9912da20b (HEAD -> master)
+Merge: 3f11cee 913cf39
+Author: Juneyoung Lee <aqjune@gmail.com>
+Date:   Thu Mar 19 18:58:25 2020 +0900
+
+    Merge branch 'drink'
+
+commit 913cf395138ebc85c8de0e3a3b0cd7b84ffccf2a (drink)
+Author: Juneyoung Lee <aqjune@gmail.com>
+Date:   Thu Mar 19 18:52:53 2020 +0900
+
+    Mention that I like any drink
+
+commit 3f11cee858d71b87d88649fbaf53d2391a42d8ec (food)
+Author: Juneyoung Lee <aqjune@gmail.com>
+Date:   Thu Mar 19 18:47:05 2020 +0900
+
+    Mention my favorite food
+    
+    which is anything.
+
+commit 29a27e4ea35cdaddc4121908d5f38d1a4f5f8873
+Author: Juneyoung Lee <aqjune@gmail.com>
+Date:   Thu Mar 19 18:40:52 2020 +0900
+
+    A good commit
+    
+    This is a good commit.
+
+commit e922516610c706fb2a28e90ac7066c88c08dde32 (origin/master, origin/HEAD)
+Author: Juneyoung Lee <aqjune@gmail.com>
+Date:   Thu Mar 19 15:11:43 2020 +0900
+
+    Initial commit
