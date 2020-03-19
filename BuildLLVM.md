@@ -24,6 +24,7 @@ We'll use https://github.com/aqjune/llvmscript. Please clone the repo first.
 
 ```
 git clone git@github.com:aqjune/llvmscript.git
+# If it raises permission denied error, try 'git clone https://github.com/aqjune/llvmscript.git' instead
 cd llvmscript
 ```
 
