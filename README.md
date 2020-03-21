@@ -15,3 +15,5 @@
 ## Assignments
 
 - May. 19th: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
+
+If you cannot compile word.cpp, please check whether your `g++` supports c++17. `g++ -version` should print version 7 or upper.
