@@ -44,3 +44,15 @@ python3 run.py build --cfg examples/llvm.json --type release --core <# of cores 
 # NOTE: if it aborts due to insufficient memory space, please re-try with
 #       smaller number of cores (it will restart compiling from the last status)
 ```
+
+#### Troubleshootings
+
+- If an error message says it cannot find distutil.spawn, please install `python3-distutils`
+(Ubuntu: `apt install python3-distutils`)
+
+- If it fails with this error message, please remove `compiler-rt` from `llvm.json`:
+
+```
+CMake Error at (llvm 경로)/compiler-rt/test/builtins/CMakeLists.txt:55 (message):
+  Target clang_rt.builtins_x86_64_osx does not exist
+```
