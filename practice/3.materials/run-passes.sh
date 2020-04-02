@@ -27,8 +27,8 @@ if [ "$1" != "run" ]; then
   CXXFLAGS="$CXXFLAGS -std=c++17"
   set -e
 
-  $CXX $ISYSROOT $CXXFLAGS $LDFLAGS $LIBS hello.cpp -o libHello$EXT -shared
-  $CXX $ISYSROOT $CXXFLAGS $LDFLAGS $LIBS dump.cpp -o libDump$EXT -shared
+  $CXX $ISYSROOT $CXXFLAGS $LDFLAGS $LIBS hello.cpp -o ./libHello$EXT -shared
+  $CXX $ISYSROOT $CXXFLAGS $LDFLAGS $LIBS dump.cpp -o ./libDump$EXT -shared
 
 fi
 
