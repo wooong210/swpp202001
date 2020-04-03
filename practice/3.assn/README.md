@@ -92,6 +92,20 @@ lexicographical order (사전순).
 It is assumed that names of basic blocks are unique, and all branch conditions
 are given from a function argument (such as `%cond` in the above example).
 
+NOTE: you should report blocks that are syntactically unreachable only.
+For example,
+
+```
+entry:
+if (flag) {
+  if (!flag) {
+  BB1: // logically unreachable, but syntactically reachable
+  }
+}
+```
+
+In this case, you should not report BB1, because there exists branch instructions from the entry to BB1 syntactically.
+
 
 ##### How to check
 
