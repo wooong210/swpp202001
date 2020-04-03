@@ -34,7 +34,7 @@ fi
 
 if [ "$1" != "build" ]; then
   $2/opt -disable-output \
-      -load-pass-plugin=libHello$EXT \
-      -load-pass-plugin=libDump$EXT \
+      -load-pass-plugin=./libHello$EXT \
+      -load-pass-plugin=./libDump$EXT \
       -passes="hello,dump" foo.ll
 fi
