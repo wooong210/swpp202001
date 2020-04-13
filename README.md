@@ -33,3 +33,5 @@ Special thanks to Woosung Song.
 NOTE 2: N in `polygon` is not larger than 100. input5.txt's answer was incorrect and fixed (thanks to Jeyeon Si). Block names in `unreachable`'s inputs are always lower-case alphabets.
 
 - Apr. 13th: Check the [issue](https://github.com/snu-sf-class/swpp202001/issues/3) for making up project teams.
+
+- Apr. 14th: Assignment 4 is announced. Deadline is Apr. 21th, midnight.
