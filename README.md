@@ -38,3 +38,5 @@ NOTE 2: N in `polygon` is not larger than 100. input5.txt's answer was incorrect
 
 NOTE: `fillundef.cpp` had bugs regarding the type of undef value / the way how
 uses are iterated. Now fixed.
+
+NOTE 2: Added [FAQ.md](practice/4.assn/FAQ.md).
