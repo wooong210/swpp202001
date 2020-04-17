@@ -15,13 +15,18 @@ using namespace std;
 namespace {
 class FillUndef : public PassInfoMixin<FillUndef> {
   void replaceSpecificUsesWithUndef(Value *V) {
-    for (Use &U : V->uses()) {
+    // As we are changing use list, `for (auto &U : V->uses())` cannot be
+    // used.
+    // Otherwise, the iterator is invalidated at U.set(), so incrementing the
+    // iterator will crash.
+    for (auto itr = V->use_begin(), end = V->use_end(); itr != end;) {
+      Use &U = *itr++;
       User *Usr = U.getUser();
       Instruction *UsrI = dyn_cast<Instruction>(Usr);
       if (UsrI) {
         BasicBlock *BB = UsrI->getParent();
         if (BB->getName() == "undef_zone")
-          U.set(UndefValue::get(UsrI->getType()));
+          U.set(UndefValue::get(V->getType()));
       }
     }
   }
