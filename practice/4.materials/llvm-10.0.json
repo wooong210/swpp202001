@@ -6,7 +6,7 @@
     "release":{
       "path":"./llvm-10.0-release",
       "projects":"llvm;clang;libcxx;libcxxabi",
-      "sharedlib":false
+      "sharedlib":true
     },
     "relassert":{
       "path":"./llvm-10.0-releaseassert",
