@@ -44,7 +44,7 @@ Write a pass that optimizes a program by propagating equality of integer values.
 To be specific, whenever `icmp eq iN x, y` is used by a branch condition, please
 replace x with y (or y with x) for all uses of x that are
 (1) executed after the branch is taken
-(2) guaranteed that x == y holds at the use.
+(2) dominated by the conditional branch.
 
 ```
   %cond = icmp eq i32 %x, %y
