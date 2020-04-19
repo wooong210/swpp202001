@@ -14,6 +14,12 @@
 
 - Apr. 13th: Check the [issue](https://github.com/snu-sf-class/swpp202001/issues/3) for making up project teams.
 
+- Apr. 19th: On Apr. 28th, you're going to have an idea presentation session.
+Each team should come up with an optimization that will be helpful for the project.
+Each team will have a presentation for 3 minutes and get feedback for 2 minutes.
+For the specification of backend assembly as well as the restrictions on the
+input programs, see [project/spec.pdf](project/spec.pdf).
+
 ## Assignments
 
 - Mar. 19th: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
