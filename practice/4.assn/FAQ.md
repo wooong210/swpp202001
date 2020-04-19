@@ -40,3 +40,8 @@ Q. What is a constant expression?
 
 A. It is a constant which is not simply 0, 1, .. but an expression.
 For example, https://godbolt.org/z/wiNY44 .
+
+
+Q. Can mycheck files include function declarations?
+
+A. Yes. All tests at `data/` satisfy the 4 conditions for the FileCheck test.
