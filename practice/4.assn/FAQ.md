@@ -2,7 +2,7 @@
 
 Q. When shouldn't the code be optimized?
 
-A.
+A. A code should not be optimized except the case when `icmp eq iN x y` is directly used by a conditional branch `br` & the use is dominated. Even though it is mathematically correct to do so, please don't optimize it.
 
 (1) If `icmp ne x y` is false, x == y should not be propagated to the false branch.
 
@@ -20,6 +20,8 @@ bb_here
   // In this block, x == y always holds. However, finding this is not trivial,
   // so don't optimize in assn 4.
 ```
+
+(4) Even if `and (icmp eq x y) cond2` is used by a conditional branch, x == y should not be propagated to the true branch.
 
 
 Q. printdom.cpp is not printing `Edge (bb1, bb2) dominates bb2!`. What is the reason?
