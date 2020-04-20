@@ -45,3 +45,8 @@ For example, https://godbolt.org/z/wiNY44 .
 Q. Can mycheck files include function declarations?
 
 A. Yes. All tests at `data/` satisfy the 4 conditions for the FileCheck test.
+
+
+Q. Is there a tool for formatting my C++ code? Or, do you have a reference for good C++ coding convention?
+
+A. Yes. You can use `<llvm dir>/bin/clang-format <my .cpp> -i`. For naming convention, please read [this](http://llvm.org/docs/CodingStandards.html#name-types-functions-variables-and-enumerators-properly).
