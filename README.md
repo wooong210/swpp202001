@@ -20,6 +20,8 @@ Each team will have a presentation for 3 minutes and get feedback for 2 minutes.
 For the specification of backend assembly as well as the restrictions on the
 input programs, see [project/spec.pdf](project/spec.pdf).
 
+- Apr. 20: To ask questions about the assembly & source programs, please use [issue #6](https://github.com/snu-sf-class/swpp202001/issues/6) and [#7](https://github.com/snu-sf-class/swpp202001/issues/7).
+
 ## Assignments
 
 - Mar. 19: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
