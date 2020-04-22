@@ -57,3 +57,5 @@ DominatorTree DT(F);
 
 NOTE 4: *IMPORTANT: We have one more constraint to guarantee that there is only one
 possible output. Please see the updated README.md of assignment 4.*
+
+- Apr. 22: We'll accept late submissions of assignment 4 by this Thursday (Apr. 23). 
