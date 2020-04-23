@@ -22,6 +22,8 @@ input programs, see [project/spec.pdf](project/spec.pdf).
 
 - Apr. 20: To ask questions about the assembly & source programs, please use [issue #6](https://github.com/snu-sf-class/swpp202001/issues/6) and [#7](https://github.com/snu-sf-class/swpp202001/issues/7).
 
+- Apr. 23: The way how a program inputs/outputs is updated. See [project/spec.pdf](project/spec.pdf).
+
 ## Assignments
 
 - Mar. 19: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
