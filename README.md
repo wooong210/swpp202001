@@ -59,4 +59,6 @@ possible output. Please see the updated README.md of assignment 4.
 
 - Apr. 22: We'll accept late submissions of assignment 4 by this Thursday (Apr. 23). 
 
-- Apr. 24: Assignment 5 is announced. Deadline is Apr. 28 (11:59 pm)
+- Apr. 24: Assignment 5 is announced. Deadline is Apr. 28 (11:59 pm). You can use
+[issue 7](https://github.com/snu-sf-class/swpp202001/issues/7) and
+[issue 8](https://github.com/snu-sf-class/swpp202001/issues/8) to ask questions.
